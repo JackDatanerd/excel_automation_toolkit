@@ -1,4 +1,4 @@
-Excel Automation Toolkit
+**Excel Automation Toolkit**
 
 Automates repetitive Excel data cleaning and merging workflows for HR, Finance, and Operations teams — saving time and reducing human error.
 
@@ -14,14 +14,13 @@ Data cleaning	Trims text, standardizes column names, removes duplicates
 Date formatting	Converts messy date fields into proper date format
 Automated output	Saves clean, unified report to a data_cleaned/ folder
 Reusable workflow	Works for monthly HR logs, finance summaries, sales sheets, etc.
+
+
 🛠️ Tech Stack
 
 Python
-
 Pandas (data wrangling)
-
 OpenPyXL (writing Excel files)
-
 Glob + OS (file automation)
 
 📂 Project Structure
@@ -35,20 +34,16 @@ excel_automation_toolkit/
 ├─ requirements.txt          # Dependencies
 └─ README.md                 # Documentation
 
-▶️ How to Use
-
+**▶️ How to Use**
 Place all raw Excel files in:
-
 data_raw/
 
 
 Run the script:
-
 python automation_toolkit.py
 
 
 The cleaned and combined output will appear in:
-
 data_cleaned/cleaned_master.xlsx
 
 📈 Example Use Cases
@@ -56,6 +51,8 @@ Department	Task Automated	Time Saved/Month
 HR	Consolidating attendance logs	4–6 hours
 Finance	Monthly expense sheet cleanup	5–12 hours
 Sales	Regional sales performance merging	3–8 hours
+
+
 🔧 Future Enhancements (Roadmap)
 
 Add UI trigger button directly inside Excel (via xlwings)
